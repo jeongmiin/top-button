@@ -1,0 +1,10 @@
+body{font-size: 16px; font-weight: 400; box-sizing: border-box;}
+.wrap{position: relative; width: 100%;}
+.header{  position: relative; width: 100%; height: 5em; background-color: #333; color: #fff; display: flex; align-items: center; justify-content: center;}
+.header_content{}
+.main_contnet_section{width: 100%; height: 150em; text-align: center; padding: 2em; background: linear-gradient( #f5f5f5, #000); box-sizing: border-box;}
+.footer{ position: relative; width: 100%; height: 15em; background-color: #ddd; display: flex; align-items: center; justify-content: center;}
+
+.topBtn { display: none; position: fixed; right: 2.5%; bottom: 2.5%; width: 4.4em; height: 4.4em; border-radius: 20em; background-color: #e86100; z-index: 40; }
+.topBtn i { color: #fff; font-size: 1.6em; position: absolute; left: 50%; top: 52%; transform: translate(-50%, -50%); }
+.topBtn.fixed { position: absolute; bottom: calc(100% + 15px); }
